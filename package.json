@@ -1,0 +1,22 @@
+{
+  "name": "object3d-v2",
+  "version": "1.0.0",
+  "description": "Um app para renderizar objeto 3d",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "vite build && nw ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^4.4.8"
+  },
+  "dependencies": {
+    "three": "^0.154.0",
+    "nw": "^0.78.1"
+  },
+  "nwjs": {
+    "main": "dist/index.html"
+  }
+}
